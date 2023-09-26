@@ -21,7 +21,7 @@ function Sidebar() {
         }}
       >
         <div style={{ marginTop: "18px", marginLeft: "42px" }}>
-          <img src={Logo} style={{ width: "202px", height: "134px" }} />
+          <img src={Logo} style={{ width: "202px", height: "134px" }} alt="" />
         </div>
         <div
           style={{
@@ -55,7 +55,7 @@ function Sidebar() {
                       marginLeft: "20px",
                     }}
                   >
-                    <img src={images[index]} />
+                    <img src={images[index]} alt="" />
                   </div>
                   <p
                     style={{
