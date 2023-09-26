@@ -1,5 +1,4 @@
 import React from "react";
-import RightSidebar from "./RightSidebar";
 import Sidebar from "./Sidebar";
 
 function Dashboard() {
