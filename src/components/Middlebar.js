@@ -54,6 +54,7 @@ function Middlebar() {
             >
               <img
                 src={Notification}
+                alt=""
                 style={{ width: "32px", height: "32px" }}
               />
             </div>
@@ -111,7 +112,11 @@ function Middlebar() {
               }}
               onClick={handleMenuSection}
             >
-              <img src={MenuIcons} style={{ width: "36px", height: "36px" }} />
+              <img
+                src={MenuIcons}
+                style={{ width: "36px", height: "36px" }}
+                alt=""
+              />
               {menuOption && (
                 <div style={{ position: "absolute", top: "125%", zIndex: 1 }}>
                   <Menu />
