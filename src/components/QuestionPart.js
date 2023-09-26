@@ -65,6 +65,7 @@ function QuestionPart() {
               <img
                 src={imgIcon}
                 style={{ width: "inherit", height: "inherit" }}
+                alt=""
               />
             </div>
           </div>
@@ -137,6 +138,7 @@ function QuestionPart() {
                       <img
                         src={imgIcon}
                         style={{ width: "42px", height: "42px" }}
+                        alt=""
                       />
                     </div>
                     <div
@@ -151,6 +153,7 @@ function QuestionPart() {
                       <img
                         src={deleteIcon}
                         style={{ width: "33px", height: "37px" }}
+                        alt=""
                       />
                     </div>
                   </div>
